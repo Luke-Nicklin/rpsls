@@ -59,28 +59,33 @@ p {
     width: 100px;
     height: 60px;
     font-size: large;
+    border-radius: 20px;
 }
 
 .paper {
     width: 100px;
     height: 60px;
     font-size: large;
+    border-radius: 20px;
 }
 
 .scissors {
     width: 100px;
     height: 60px;
     font-size: large;
+    border-radius: 20px;
 }
 
 .lizard {
     width: 100px;
     height: 60px;
     font-size: large;
+    border-radius: 20px;
 }
 
 .spock {
     width: 100px;
     height: 60px;
     font-size: large;
+    border-radius: 20px;
 }
