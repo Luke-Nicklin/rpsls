@@ -33,5 +33,43 @@ h1 {
 }
 
 p {
+    font-size: x-large;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.rock {
+    width: 100px;
+    height: 60px;
+    font-size: large;
+}
+
+.paper {
+    width: 100px;
+    height: 60px;
+    font-size: large;
+}
+
+.scissors {
+    width: 100px;
+    height: 60px;
+    font-size: large;
+}
+
+.lizard {
+    width: 100px;
+    height: 60px;
+    font-size: large;
+}
+
+.spock {
+    width: 100px;
+    height: 60px;
     font-size: large;
 }
