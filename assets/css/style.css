@@ -1,0 +1,37 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Jersey 15", sans-serif;
+    --primary-color: #FFF4CF; /* Light yellow */
+}
+
+/* Logo */
+.logo {
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+/* Global styles */
+
+body {
+    background-color: var(--primary-color);
+    padding-top: 60px;
+    font-family: var(--primary-font);
+}
+
+h1,
+h2 {
+    font-family: var(--primary-font);
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+p {
+    font-size: large;
+}
