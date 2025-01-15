@@ -64,11 +64,19 @@ p {
     border-radius: 20px;
 }
 
+.rock:hover {
+    background-color: white;
+}
+
 .paper {
     width: 100px;
     height: 60px;
     font-size: large;
     border-radius: 20px;
+}
+
+.paper:hover {
+    background-color: white;
 }
 
 .scissors {
@@ -78,6 +86,10 @@ p {
     border-radius: 20px;
 }
 
+.scissors:hover {
+    background-color: white;
+}
+
 .lizard {
     width: 100px;
     height: 60px;
@@ -85,11 +97,19 @@ p {
     border-radius: 20px;
 }
 
+.lizard:hover {
+    background-color: white;
+}
+
 .spock {
     width: 100px;
     height: 60px;
     font-size: large;
     border-radius: 20px;
+}
+
+.spock:hover {
+    background-color: white;
 }
 
 .moves {
@@ -101,14 +121,12 @@ p {
 
 .user{
     margin-left: 300px;
-    border: solid, 5px;
-    height: 420px;
-    border-radius: 20px;
 }
 
 .computer{
     margin-right: 300px;
-    border: solid, 5px;
-    height: 420px;
-    border-radius: 20px;
+}
+
+footer > p {
+    margin-top: -280px;
 }
