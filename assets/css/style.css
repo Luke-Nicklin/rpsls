@@ -57,58 +57,14 @@ p {
     margin-bottom: 20px;
 }
 
-.rock {
+.button {
     width: 100px;
     height: 60px;
     font-size: large;
     border-radius: 20px;
 }
 
-.rock:hover {
-    background-color: white;
-}
-
-.paper {
-    width: 100px;
-    height: 60px;
-    font-size: large;
-    border-radius: 20px;
-}
-
-.paper:hover {
-    background-color: white;
-}
-
-.scissors {
-    width: 100px;
-    height: 60px;
-    font-size: large;
-    border-radius: 20px;
-}
-
-.scissors:hover {
-    background-color: white;
-}
-
-.lizard {
-    width: 100px;
-    height: 60px;
-    font-size: large;
-    border-radius: 20px;
-}
-
-.lizard:hover {
-    background-color: white;
-}
-
-.spock {
-    width: 100px;
-    height: 60px;
-    font-size: large;
-    border-radius: 20px;
-}
-
-.spock:hover {
+.button:hover {
     background-color: white;
 }
 

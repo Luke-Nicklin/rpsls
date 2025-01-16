@@ -36,11 +36,11 @@
 <main>
     <section>
         <div class="buttons">
-            <button aria-label="Rock" class="rock" onclick="">Rock</button>
-            <button aria-label="Paper" class="paper" onlick="">Paper</button>
-            <button aria-label="Scissors" class="scissors" onlick="">Scissors</button>
-            <button aria-label="Lizard" class="lizard" onlick="">Lizard</button>
-            <button aria-label="Spock" class="spock" onlick="">Spock</button>
+            <button aria-label="Rock" data-choice="0" class="button" id="rock">Rock</button>
+            <button aria-label="Paper" data-choice="1" class="button" id="paper">Paper</button>
+            <button aria-label="Scissors" data-choice="2" class="button" id="scissors">Scissors</button>
+            <button aria-label="Lizard" data-choice="3" class="button" id="lizard">Lizard</button>
+            <button aria-label="Spock" data-choice="4" class="button" id="spock">Spock</button>
         </div>
     </section>
 
@@ -48,12 +48,12 @@
         <div class="moves">
             <div class="user">
                 <p>You</p>
-                <img src="images/layer2.png">
+                <img id="userImage" src="images/layer2.png">
             </div>
 
             <div class="computer">
                 <p>Computer</p>
-                <img src="images/layer2.png">
+                <img id="computerImage" src="images/layer2.png">
             </div>
             
         </div>
