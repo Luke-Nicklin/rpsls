@@ -1,11 +1,11 @@
-function playGame(userChoice) {
+function playGame(userMove) {
   // Get computer's choice randomly
   const choices = ["rock", "paper", "scissors", "lizard", "spock"];
-  const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+  const computerMove = choices[Math.floor(Math.random() * choices.length)];
 
   // Determine winner
   let result;
-  if (userChoice === computerChoice) {
+  if (userMove === computerMove) {
     result = "tie";
   } 
 
