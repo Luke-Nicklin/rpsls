@@ -23,7 +23,6 @@
 <!-- Header -->
  <header id="header">
     <h1>Rock, paper, scissors, lizard, spock</h1>
-    <p>Can you defeat the computer at rock, paper, scissors, lizard, spock? Choose your weapon below.</p>
     
     <div class="scoreboard">
         <p>Wins: <span id="wins">0</span></p>
@@ -34,6 +33,11 @@
 
 <!-- main element to hold all key sections of the home page -->
 <main>
+    <section>
+        <h2>Your choice<span id="userMove"></span></h2>
+        <h2>Computer's choice<span id="computerrMove"></span></h2>
+        <h2>Result:<span id="result"></span></h2>
+    </section>
     <section>
         <div class="buttons">
             <button aria-label="Rock" data-choice="0" class="button" id="rock" onclick="playGame('rock')">Rock</button>
