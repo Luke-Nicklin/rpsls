@@ -69,6 +69,12 @@ p {
     background-color: white;
 }
 
+#resultDisplay {
+    font-size: 30px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
 .moves {
     width: 100vw;
     height: 100vh;
