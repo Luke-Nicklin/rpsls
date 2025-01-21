@@ -48,11 +48,4 @@ console.log(computerMove, result);
  } else {
   ties++
  }
-
- document.getElementById("wins").textContent = wins;
- document.getElementById("losses").textContent = losses;
- document.getElementById("ties").textContent = ties;
-
-// Display result
- document.getElementById("resultDisplay").textContent = result;
 }
