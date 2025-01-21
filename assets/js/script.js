@@ -1,31 +1,15 @@
-const rockButton = document.getElementById ('rock');
-const paperButton = document.getElementById ('paper');
-const scissorsButton = document.getElementById ('scissors');
-const lizardButton = document.getElementById ('lizard');
-const spockButton = document.getElementById ('spock');
+const rockButton = document.getElementById('rock');
+const paperButton = document.getElementById('paper');
+const scissorsButton = document.getElementById('scissors');
+const lizardButton = document.getElementById('lizard');
+const spockButton = document.getElementById('spock');
 
-// Add event listeners to each button
-rockButton.addEventListener('click', () => {
-  // Rock button click
-  playGame('rock');
-});
+console.log(rockButton);
 
-paperButton.addEventListener('click', () => {
-  // Paper button click
-  playGame('paper');
-});
+function playGame(userMove) {
+  // Get computer's choice randomly
+  const choices = ["rock", "paper", "scissors", "lizard", "spock"];
+  const computerMove = choices[Math.floor(Math.random() * choices.length)];
 
-scissorsButton.addEventListener('click', () => {
-  // Scissors button click
-  playGame('scissors');
-});
-
-lizardButton.addEventListener('click', () => {
-  // Lizard button click
-  playGame('lizard');
-});
-
-spockButton.addEventListener('click', () => {
-  // Spock button click
-  playGame('spock');
-});
+  // Determine winner
+}
