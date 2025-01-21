@@ -5,7 +5,7 @@ const lizardButton = document.getElementById('lizard');
 const spockButton = document.getElementById('spock');
 
 function playGame(userMove) {
-  // Get computer's choice randomly
+  // Get computer's move randomly
   const moves = ["rock", "paper", "scissors", "lizard", "spock"];
   const computerMove = moves[Math.floor(Math.random() * moves.length)];
 
@@ -30,5 +30,29 @@ function playGame(userMove) {
       result = "loss";
     }
 
-    console.log(computerMove, result);
-  }
+console.log(computerMove, result);
+  
+  // Update scoreboard
+ let wins = parseInt(document.getElementById("wins").textContent);
+ let losses = parseInt(document.getElementById("losses").textContent);
+ let ties = parseInt(document.getElementById("ties").textContent);
+
+ // Update result
+ let resultDisplay = parseInt(document.getElementById("resultDisplay").textContent);
+
+ // Add scores to scoreboard
+ if (result === "win") {
+  wins++
+ } else if (result === "loss") {
+  losses++
+ } else {
+  ties++
+ }
+
+ document.getElementById("wins").textContent = wins;
+ document.getElementById("losses").textContent = losses;
+ document.getElementById("ties").textContent = ties;
+
+// Display result
+ document.getElementById("resultDisplay").textContent = result;
+}

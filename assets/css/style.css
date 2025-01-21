@@ -11,6 +11,7 @@
 .logo {
     margin-left: 40px;
     margin-top: -80px;
+    margin-bottom: 40px;
 }
 
 /* Global styles */
@@ -19,6 +20,7 @@ body {
     background-color: var(--primary-color);
     padding-top: 60px;
     font-family: var(--primary-font);
+    position: relative;
 }
 
 h1,
@@ -91,6 +93,60 @@ p {
 }
 
 footer > h2 {
-    margin-top: -280px;
+    margin-top: -200px;
 }
 
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 20px;
+        margin-top: -50px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: large;
+    }
+
+    .scoreboard > p {
+        font-size: 24px;
+    }
+
+    .buttons {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .moves {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column
+    }
+
+    footer > h2 {
+        margin-top: -200px;
+    }
+
+    footer {
+        position: static; /* Remove fixed positioning */
+        margin-top: 350px; /* Push footer to bottom */
+    }
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .user,
+    .computer {
+        margin: 0 auto;
+    }
+
+    footer {
+        position: static;
+        margin-top: 350px;
+    }
+}
