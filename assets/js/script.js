@@ -3,6 +3,7 @@ const paperButton = document.getElementById("paper");
 const scissorsButton = document.getElementById("scissors");
 const lizardButton = document.getElementById("lizard");
 const spockButton = document.getElementById("spock");
+const resultDisplay = document.getElementById("resultDisplay");
 
 // Array of possible moves
 const moves = ["rock", "paper", "scissors", "lizard", "spock"];
@@ -14,7 +15,7 @@ function playGame(userMove) {
 // Else if statement to determine result
 let result;
 if (userMove === computerMove) {
-  result = "Tie";
+  result = "tie";
 } else if (
   (userMove === "rock" && (computerMove === "scissors" || computerMove === "lizard")) ||
   (userMove === "paper" && (computerMove === "rock" || computerMove === "spock")) ||
@@ -27,5 +28,27 @@ if (userMove === computerMove) {
   result = "lose";
 }
 
-console.log(computerMove, result);
+// Add event listeners for buttons
+rockButton.addEventListener("click", () => playGame("rock"));
+rockButton.addEventListener("click", () => playGame("paper"));
+rockButton.addEventListener("click", () => playGame("scissors"));
+rockButton.addEventListener("click", () => playGame("lizard"));
+rockButton.addEventListener("click", () => playGame("spock"));
+
+// Update scoreboard
+
+
+// Update result
+let resultDisplay;
+if (result === "win") {
+  resultDisplay = "You win!";
+} else if (result === "lose") {
+  resultDisplay = "You lose!";
+} else {
+  resultDisplay = "It's a tie!";
+}
+
+const resultDisplayElement = document.getElementById("resultDisplay");
+resultDisplayElement.textContent = resultDisplay;
+
 }
