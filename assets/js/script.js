@@ -18,7 +18,10 @@ function playGame(userMove) {
 
 // Change images based on user move and computer move
 userImage.src = `images/${userMove}.png`;
+userImage.alt = moves[userMove];
+
 computerImage.src = `images/${computerMove}.png`;
+computerMove.alt = moves[computerMove];
 
 // Else if statement to determine result
 let result;
