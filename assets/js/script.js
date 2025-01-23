@@ -1,3 +1,4 @@
+// DOM variables
 const rockButton = document.getElementById("rock");
 const paperButton = document.getElementById("paper");
 const scissorsButton = document.getElementById("scissors");
@@ -14,6 +15,10 @@ const moves = ["rock", "paper", "scissors", "lizard", "spock"];
 // Function to play game
 function playGame(userMove) {
   const computerMove = moves[Math.floor(Math.random() * moves.length)]
+
+// Change images based on user move and computer move
+userImage.src = `images/${userMove}.png`;
+computerImage.src = `images/${computerMove}.png`;
 
 // Else if statement to determine result
 let result;
@@ -47,7 +52,7 @@ if (result === "win") {
   wins++
 } else if (result === "lose") {
   losses++
-} else {
+} else if (result === "tie") {
   ties++;
 }
 
