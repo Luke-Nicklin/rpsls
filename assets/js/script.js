@@ -4,6 +4,8 @@ const paperButton = document.getElementById("paper");
 const scissorsButton = document.getElementById("scissors");
 const lizardButton = document.getElementById("lizard");
 const spockButton = document.getElementById("spock");
+const userImage = document.getElementById("userImage");
+const computerImage = document.getElementById("computerImage");
 const resultDisplay = document.getElementById("resultDisplay");
 let wins = document.getElementById("wins");
 let losses = document.getElementById("losses");
@@ -21,7 +23,7 @@ userImage.src = `images/${userMove}.png`;
 userImage.alt = moves[userMove];
 
 computerImage.src = `images/${computerMove}.png`;
-computerMove.alt = moves[computerMove];
+computerImage.alt = moves[computerMove];
 
 // Else if statement to determine result
 let result;
@@ -41,10 +43,10 @@ if (userMove === computerMove) {
 
 // Add event listeners for buttons
 rockButton.addEventListener("click", () => playGame("rock"));
-rockButton.addEventListener("click", () => playGame("paper"));
-rockButton.addEventListener("click", () => playGame("scissors"));
-rockButton.addEventListener("click", () => playGame("lizard"));
-rockButton.addEventListener("click", () => playGame("spock"));
+paperButton.addEventListener("click", () => playGame("paper"));
+scissorsButton.addEventListener("click", () => playGame("scissors"));
+lizardButton.addEventListener("click", () => playGame("lizard"));
+spockButton.addEventListener("click", () => playGame("spock"));
 
 // Update scoreboard
 let wins = 0;
