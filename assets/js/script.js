@@ -4,6 +4,9 @@ const scissorsButton = document.getElementById("scissors");
 const lizardButton = document.getElementById("lizard");
 const spockButton = document.getElementById("spock");
 const resultDisplay = document.getElementById("resultDisplay");
+let wins = document.getElementById("wins");
+let losses = document.getElementById("losses");
+let ties = document.getElementById("ties");
 
 // Array of possible moves
 const moves = ["rock", "paper", "scissors", "lizard", "spock"];
@@ -36,7 +39,21 @@ rockButton.addEventListener("click", () => playGame("lizard"));
 rockButton.addEventListener("click", () => playGame("spock"));
 
 // Update scoreboard
+let wins = 0;
+let losses = 0;
+let ties = 0;
 
+if (result === "win") {
+  wins++
+} else if (result === "lose") {
+  losses++
+} else {
+  ties++;
+}
+
+document.getElementById("wins").textContent = wins;
+document.getElementById("losses").textContent = losses;
+document.getElementById("ties").textContent = ties;
 
 // Update result
 let resultDisplay;
