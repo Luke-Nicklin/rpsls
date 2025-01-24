@@ -40,6 +40,10 @@ p {
     text-align: center;
 }
 
+.rules {
+    margin-top: -100px;
+}
+
 .scoreboard > p {
     display: inline;
     margin-left: 16px;
@@ -82,18 +86,21 @@ p {
     height: 100vh;
     display: flex;
     justify-content: space-between;
+    margin-top: -200px;
+}
+
+.rules {
+    margin-top: -250px;
 }
 
 .user{
     margin-left: 300px;
+    margin-top: 200px;
 }
 
 .computer{
     margin-right: 300px;
-}
-
-footer > h2 {
-    margin-top: -200px;
+    margin-top: 200px;
 }
 
 /* Mobile Styles */
@@ -125,16 +132,12 @@ footer > h2 {
         width: 100vw;
         height: 100vh;
         display: flex;
-        flex-direction: column
+        flex-direction: column;
+        margin-top: auto;
     }
 
-    footer > h2 {
-        margin-top: -200px;
-    }
-
-    footer {
-        position: static; /* Remove fixed positioning */
-        margin-top: 350px; /* Push footer to bottom */
+    .rules {
+        margin-top: 150px;
     }
 }
 
@@ -145,8 +148,15 @@ footer > h2 {
         margin: 0 auto;
     }
 
-    footer {
-        position: static;
-        margin-top: 350px;
+    .moves {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+    }
+
+    .rules {
+        margin-top: 150px;
     }
 }

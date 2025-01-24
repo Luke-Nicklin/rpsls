@@ -2,7 +2,7 @@
 
 ZenYoga is a site that helps users interested in self improvement learn more about meditation, yoga and mindfulness. The site's primary users are beginners and those looking to expand their knowledge of health and wellbeing. ZenYoga will provide users with informative content on the basics and allow them to get in touch to make a booking.
 
-![Responsice Mockup](media/ZenYoga-mockup.png)
+![Responsive Mockup](media/ZenYoga-mockup.png)
 
 ## Features 
 
