@@ -1,131 +1,279 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# RPSLS
 
-Welcome Luke Nicklin,
+ZenYoga is a site that helps users interested in self improvement learn more about meditation, yoga and mindfulness. The site's primary users are beginners and those looking to expand their knowledge of health and wellbeing. ZenYoga will provide users with informative content on the basics and allow them to get in touch to make a booking.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsice Mockup](media/ZenYoga-mockup.png)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+## Features 
 
-## Gitpod Reminders
+The ZenYoga website includes a number of features including a navigation bar, services section, booking enquiery form, gallety and footer.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Existing Features
 
-`python3 -m http.server`
+__Navigation Bar__
 
-A blue button should appear to click: _Make Public_,
+  - Featured on all pages, the fully responsive navigation bar includes links to the Logo, home, meditation, yoga, mindulness and gallery pages. The Contact link in the navigation bar also takes the user to the booking enquiery section on each page.
+  - This section allows the user to easily navigate the site on each page and return to the home page without using the browser's 'back' button.
 
-Another blue button should appear to click: _Open Browser_.
+![Nav Bar](media/ZenYoga-navbar-mockup.png)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+__The landing page image and content__
 
-A blue button should appear to click: _Make Public_,
+  - The landing page includes an image of someone practicing meditation and welcoming content that explains the purpose of ZenYoga. There is also a call to action in the form of a 'Contact us' button.
+  - This helps the user to quickly understand the purpose of the website and to get in touch to find out more.
 
-Another blue button should appear to click: _Open Browser_.
+![Landing Page](media/ZenYoga-landing-page-header.png)
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+__Services Section__
 
-To log into the Heroku toolbelt CLI:
+  - The services section provides the user with an overview of the different services that ZenYoga offers. Each service card includes an image, a brief description and a 'Learn more' button. 
+  - The helps the user to clearly see the different services ZenYoga offers and gives them a way to find our more about each service. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Services](media/ZenYoga-services-section.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+__Booking Enquiry section__
 
-### Connecting your Mongo database
+  - This section allows the user to make a booking enquiry with ZenYoga about meditation, yoga and mindfulness sessions. The user will be asked to enter their full name, email address and message before they select the 'Submit' button.
+  - On completing the form and selecting 'Submit', the user will see a booking enquiry submitted message to confirm that their enquiery was sent.
+  - This section exists towards the bottom of each page so the user can easily contact ZenYoga to make a booking enquiry.  
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+![Booking Enquiry](media/ZenYoga-booking-enquiry.png)
 
-------
+__The Footer__ 
 
-## Release History
+  - The footer section includes links to the Facebook, X and Instagram pages for ZenYoga. 
+  - This helps the user to easily connect with ZenYoga on social media. The links will open on a new tab to allow easy navigation.
+  - The footer also includes further contact details so users can locate ZenYoga or send them an email.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Footer](media/ZenYoga-footer.png)
 
-**June 18, 2024,** Add Mongo back into template
+__Favicon__
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+  - A site wide favicon will be implemented with the ZenYoga initials 'ZY'.
+  - This will show an image in the tab so users can identify the ZenYoga website when they have multiple tabs open.
 
-**May 28 2024:** Fix Mongo and Links installs
+  ![Favicon](media/ZenYoga-favicon.png)
 
-**April 26 2024:** Update node version to 16
+__404 page__
 
-**September 20 2023:** Update Python version to 3.9.17.
+  - If a user navigates to a broken link, a 404 page will be displayed.
+  - It will let users know that the page they're trying to navigate to doesn't exist and provide them an easy way to return to the home page.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  ![404](media/ZenYoga-404.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+__Meditation__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - The Meditation page provides a list of common techniques to help the user learn more about meditation.
+  - The user can also make a booking enquiry on this page without the need to return to the home page.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Meditation](media/ZenYoga-meditation.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+__Yoga__
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - The Yoga page provides a list of common techniques to help the user learn more about yoga.
+  - The user can also make a booking enquiry on this page without the need to return to the home page. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Yoga](media/ZenYoga-yoga.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+__Mindfulness__
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  - The Mindfulness page provides a list of common techniques to help the user learn more about mindfulness.
+  - The user can also make a booking enquiry on this page without the need to return to the home page.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Mindfulness](media/ZenYoga-mindfulness.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+__Gallery__
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  - The gallery page showcases different images of people practising mindfulness, yoga and meditation.
+  - The images help the user visualise each activity and see the types of things they will be doing if they book a session.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Gallery](media/ZenYoga-gallery.png) 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Features to implement in the future
 
-------
+- Class timetable
+- Online booking system
+- Automated mailing service that sends the booking enquiries to the site owner via email
 
-## FAQ about the uptime script
+## Design
 
-**Why have you added this script?**
+### Wireframes
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Home page on desktop
 
-**How will this affect me?**
+![Home](media/ZenYoga%20-%20Home%20page%20wirframe.png)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Yoga page on mobile
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Yoga](media/ZenYoga%20-%20Yoga%20mobile%20wireframe.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Gallery page on tablet
 
-**So….?**
+![Gallery](media/ZenYoga%20-%20Gallery%20tablet%20wireframe.png)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Technologies
 
-**Can I opt out?**
+* HTML
+    * The structure of the Website was developed using HTML as the main language.
+* CSS
+    * The Website was styled using custom CSS in an external file.
+* Gitpod
+    * The website was developed using Gitpod IDE
+* GitHub
+    * Source code is hosted on GitHub and delpoyed using Git Pages.
+* Git 
+    * Used to commit and push code during the development opf the Website
+* Font Awesome
+    * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
+* Tinyjpg
+    * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+* Favicon.io
+    * favicon files were created at https://favicon.io/favicon-converter/
+* Figma
+    * Used to design the wireframes and the UI for the ZenYoga website
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Testing
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Responsiveness
 
-**Anything more?**
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.2 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html) on Chrome and safari browsers.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Steps to test:
 
----
+1. Open browser and navigate to [ZenYoga](https://luke-nicklin.github.io/zen-yoga/index.html)
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
 
-Happy coding!
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched.
+
+Actual:
+
+Website behaved as expected.
+
+### Accessibility
+
+[Wave Accessibility](https://wave.webaim.org/) tool was used for final testing of the deployed website to check for any accessibility issues.
+
+Testing checked to see if the following criteria were met:
+
+- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
+- Color contrasts meet a minimum ratio as specified in [WCAG 2.2 Contrast Guidelines](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+- All non textual content had alternative text or titles so descriptions are read out to screen readers
+- HTML page lang attribute has been set
+- Aria properties have been implemented correctly
+- WCAG 2.2 Coding best practices being followed
+
+### Lighthouse Testing
+
+__Home__
+
+![Home](media/ZenYoga-index-lighthouse.png)
+
+__Meditation__
+
+![Meditation](media/ZenYoga-meditation-lighthouse.png)
+
+__Yoga__
+
+![Yoga](media/ZenYoga-yoga-lighthouse.png)
+
+__Mindfulness__
+
+![Mindfulness](media/ZenYoga-mindfulness-lighthouse.png)
+
+__Gallery__
+
+![Gallery](media/ZenYoga-gallery-lighthouse.png)
+
+### Functional Testing
+
+**Navigation Links**
+
+Testing was performed to ensure all navigation links on the respective pages navigated to the correct pages as per design. This was done by selecting the navigation links on each page.
+
+| Navigation Link | Page to Load     |
+| --------------- | ---------------  |
+| Home            | index.html       |
+| Meditation      | meditation.html  |
+| Yoga            | yoga.html        |
+| Mindfulness     | mindfulness.html |
+| Gallery         | gallery.html     |
+| Contact         | #booking-enquiry |
+
+Links on all pages navigated to the correct pages as exptected.
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing the home page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Findex.html)
+  - No errors were returned when passing the meditation page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fmeditation.html)
+  - No errors were returned when passing the yoga page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fyoga.html)
+  - No errors were returned when passing the mindfulness page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fmindfulness.html)
+  - No errors were returned when passing the gallery page through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fgallery.html)
+  - No errors were returned when passing the success page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fsuccess.html)
+  - No errors were returned when passing the 404 page through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2F404.html)
+
+- CSS
+  - No errors were found when passing the home page through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing the meditation page through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fmeditation.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing the yoga page through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fyoga.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing the mindfulness page through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fmindfulness.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were returned when passing the gallery page through the official [W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing the success page through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fsuccess.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were returned when passing the 404 page through the official [W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2F404.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Bugs
+
+There are currently no known bugs associated with the website.
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - Select Pages in the 'Code and automation' section of the vertical navigation on the left side
+  - Once the main branch has been selected and saved, the page will include the live URL at the top of the page with a visit site button.
+
+The live link can be found here - https://luke-nicklin.github.io/zen-yoga/
+
+
+## Credits 
+
+### Code
+
+- The site uses components and patterns from Bootstrap.
+
+### Content 
+
+- The text for the Meditation page was taken from a Google search result AI overview. The AI overview delivered a summary of meditation techniques from the following sources:
+  - NHS
+  - MedicalNewsToday
+  - Verywell mind
+  - Mayo Clinic
+  - YouTube
+  - Gaiam
+  - Insight Timer
+  - tonyrobbins.com
+
+- The text for the Yoga page was taken from a Google search result AI overview. The AI overview delivered a summary of yoga techniques from the following sources:
+  - Verywell Fit
+  - Brio Leisure
+  - WorkouLabs
+
+- The text for the Mindfulness page was taken from a Google search result AI overview. The AI overview delivered a summary of mindfulness techniques from the following sources:
+  - Mayo Clinic
+  - Mindful.org
+  - NHS
+  - NHS news in health
+  - YouTube
+  
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the website are from pexels.com
