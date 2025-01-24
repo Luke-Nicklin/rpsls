@@ -107,6 +107,10 @@ footer {
     margin-top: 40px;
 }
 
+.error-container {
+    text-align: center;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     .logo {

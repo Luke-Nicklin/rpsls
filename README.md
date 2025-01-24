@@ -1,56 +1,70 @@
 # RPSLS
 
-ZenYoga is a site that helps users interested in self improvement learn more about meditation, yoga and mindfulness. The site's primary users are beginners and those looking to expand their knowledge of health and wellbeing. ZenYoga will provide users with informative content on the basics and allow them to get in touch to make a booking.
+RPSLS is a site that lets users play a fun, interactive game of rock, paper, scissors, lizard, spock agains the computer. The site's primary users are those looking to enjoy a quick game at the click of a button. RPSLS includes the result of the game, a running scoreboard and images based on what the user has selected and the computer's move.
 
-![Responsive Mockup](media/ZenYoga-mockup.png)
+![Responsive Mockup](media/rpsls-responsive-mockup.png)
 
 ## Features 
 
-The ZenYoga website includes a number of features including a navigation bar, services section, booking enquiery form, gallety and footer.
+The RPSLS website includes the following features:
+
+- Buttons for the user to select their move
+- An image generator that shows the user's move and the computer's move visually
+- A result display
+- A running scoreboard showing number of wins, losses and ties
 
 ### Existing Features
 
-__Navigation Bar__
+__Buttons__
 
-  - Featured on all pages, the fully responsive navigation bar includes links to the Logo, home, meditation, yoga, mindulness and gallery pages. The Contact link in the navigation bar also takes the user to the booking enquiery section on each page.
-  - This section allows the user to easily navigate the site on each page and return to the home page without using the browser's 'back' button.
+  - The buttons show the user the different moves they can select in order to play against the computer.
+  - This allows the user to play the game by selecting one of the buttons. This also randomly selects the computer's move and generates the images to showcase the user's and computer's moves visually.
 
-![Nav Bar](media/ZenYoga-navbar-mockup.png)
+![Buttons](media/buttons.png)
 
-__The landing page image and content__
+__Images__
 
-  - The landing page includes an image of someone practicing meditation and welcoming content that explains the purpose of ZenYoga. There is also a call to action in the form of a 'Contact us' button.
-  - This helps the user to quickly understand the purpose of the website and to get in touch to find out more.
+  - The images show the user's move and the computer's move 
+  - This helps the user to quickly see what they have selected and what the computer has selected. From here, they can also work out who's won.
 
-![Landing Page](media/ZenYoga-landing-page-header.png)
+![Images](media/images.png)
 
-__Services Section__
+__Result__
 
-  - The services section provides the user with an overview of the different services that ZenYoga offers. Each service card includes an image, a brief description and a 'Learn more' button. 
-  - The helps the user to clearly see the different services ZenYoga offers and gives them a way to find our more about each service. 
+  - The result section shows the outcome of each game.
+  - Depending on the outcome of the game, the result section will show:
+    - It's a tie!
+    - You win!
+    - You lose!
+  This helps the user to quickly see who has won or if it's a draw.
+   
+![Result](media/result.png)
 
-![Services](media/ZenYoga-services-section.png)
+__Scoreboard__
 
-__Booking Enquiry section__
+  - The scoreboard shows how many wins, losses and ties the user has had.
+  - Each time the game is played, the scoreboard is automatically updated with the result of the game. This is a running scoreboard that will keep track of all wins, losses and ties during each session. 
 
-  - This section allows the user to make a booking enquiry with ZenYoga about meditation, yoga and mindfulness sessions. The user will be asked to enter their full name, email address and message before they select the 'Submit' button.
-  - On completing the form and selecting 'Submit', the user will see a booking enquiry submitted message to confirm that their enquiery was sent.
-  - This section exists towards the bottom of each page so the user can easily contact ZenYoga to make a booking enquiry.  
+![Scoreboard](media/scoreboard.png)
 
-![Booking Enquiry](media/ZenYoga-booking-enquiry.png)
+__Rules__ 
 
-__The Footer__ 
+  - The rules section shows the winning scenarios for each move.
+  - This helps the user to quickly understand how to play the game and how the winner is determined.
 
-  - The footer section includes links to the Facebook, X and Instagram pages for ZenYoga. 
-  - This helps the user to easily connect with ZenYoga on social media. The links will open on a new tab to allow easy navigation.
-  - The footer also includes further contact details so users can locate ZenYoga or send them an email.
+![Rules](media/rules.png)
 
-![Footer](media/ZenYoga-footer.png)
+__Footer__ 
+
+  - The footer repeats the different options you can choose.
+  - It does not provide any functionality other than reminding the user of the different options available when playing the game.
+
+![Footer](media/footer.png)
 
 __Favicon__
 
-  - A site wide favicon will be implemented with the ZenYoga initials 'ZY'.
-  - This will show an image in the tab so users can identify the ZenYoga website when they have multiple tabs open.
+  - A favicon will be implemented with the rock, paper, scissors, lizard, spock initials 'RPSLS'.
+  - This will show an image in the tab so users can identify the RPSLS website when they have multiple tabs open.
 
   ![Favicon](media/ZenYoga-favicon.png)
 
@@ -59,41 +73,13 @@ __404 page__
   - If a user navigates to a broken link, a 404 page will be displayed.
   - It will let users know that the page they're trying to navigate to doesn't exist and provide them an easy way to return to the home page.
 
-  ![404](media/ZenYoga-404.png)
-
-__Meditation__
-
-  - The Meditation page provides a list of common techniques to help the user learn more about meditation.
-  - The user can also make a booking enquiry on this page without the need to return to the home page.
-
-![Meditation](media/ZenYoga-meditation.png)
-
-__Yoga__
-
-  - The Yoga page provides a list of common techniques to help the user learn more about yoga.
-  - The user can also make a booking enquiry on this page without the need to return to the home page. 
-
-![Yoga](media/ZenYoga-yoga.png)
-
-__Mindfulness__
-
-  - The Mindfulness page provides a list of common techniques to help the user learn more about mindfulness.
-  - The user can also make a booking enquiry on this page without the need to return to the home page.
-
-![Mindfulness](media/ZenYoga-mindfulness.png)
-
-__Gallery__
-
-  - The gallery page showcases different images of people practising mindfulness, yoga and meditation.
-  - The images help the user visualise each activity and see the types of things they will be doing if they book a session.
-
-![Gallery](media/ZenYoga-gallery.png) 
+  ![404](media/404.png)
+ 
 
 ### Features to implement in the future
 
-- Class timetable
-- Online booking system
-- Automated mailing service that sends the booking enquiries to the site owner via email
+- A button that lets the user pick a move at random
+- A 2-player version of the game
 
 ## Design
 
@@ -101,15 +87,15 @@ __Gallery__
 
 Home page on desktop
 
-![Home](media/ZenYoga%20-%20Home%20page%20wirframe.png)
+![Home](media/RPSLS-home-page-wirframe.png)
 
-Yoga page on mobile
+Home page on mobile
 
-![Yoga](media/ZenYoga%20-%20Yoga%20mobile%20wireframe.png)
+![Home](media/RPSLS-mobile-wireframe.png)
 
-Gallery page on tablet
+Home page on tablet
 
-![Gallery](media/ZenYoga%20-%20Gallery%20tablet%20wireframe.png)
+![Home](media/RPSLS-tablet-wireframe.png)
 
 ## Technologies
 
@@ -117,16 +103,16 @@ Gallery page on tablet
     * The structure of the Website was developed using HTML as the main language.
 * CSS
     * The Website was styled using custom CSS in an external file.
-* Gitpod
-    * The website was developed using Gitpod IDE
+* JavaScript
+    * The interactivity was created using JavaScript in an external file.
+* Visual Studio Code
+    * The website was developed using the Visual Studio Code text editor.
 * GitHub
     * Source code is hosted on GitHub and delpoyed using Git Pages.
 * Git 
     * Used to commit and push code during the development opf the Website
 * Font Awesome
     * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
-* Tinyjpg
-    * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
 * Favicon.io
     * favicon files were created at https://favicon.io/favicon-converter/
 * Figma
@@ -140,7 +126,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 Steps to test:
 
-1. Open browser and navigate to [ZenYoga](https://luke-nicklin.github.io/zen-yoga/index.html)
+1. Open browser and navigate to [RPSLS](/https://luke-nicklin.github.io/rpsls/)
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Set the zoom to 50%
@@ -160,7 +146,6 @@ Website behaved as expected.
 
 Testing checked to see if the following criteria were met:
 
-- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
 - Color contrasts meet a minimum ratio as specified in [WCAG 2.2 Contrast Guidelines](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
 - Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
 - All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
@@ -173,40 +158,24 @@ Testing checked to see if the following criteria were met:
 
 __Home__
 
-![Home](media/ZenYoga-index-lighthouse.png)
+![Home](media/homepage-lighthouse.png)
 
-__Meditation__
+__404 page__
 
-![Meditation](media/ZenYoga-meditation-lighthouse.png)
-
-__Yoga__
-
-![Yoga](media/ZenYoga-yoga-lighthouse.png)
-
-__Mindfulness__
-
-![Mindfulness](media/ZenYoga-mindfulness-lighthouse.png)
-
-__Gallery__
-
-![Gallery](media/ZenYoga-gallery-lighthouse.png)
+![Meditation](media/404-lighthouse.png)
 
 ### Functional Testing
 
-**Navigation Links**
+**Buttons**
 
-Testing was performed to ensure all navigation links on the respective pages navigated to the correct pages as per design. This was done by selecting the navigation links on each page.
+Testing was performed to ensure all buttons on the respective pages resulted in the expected behavious to the correc as per design. This was done by selecting the buttons on each page.
 
 | Navigation Link | Page to Load     |
 | --------------- | ---------------  |
 | Home            | index.html       |
-| Meditation      | meditation.html  |
-| Yoga            | yoga.html        |
-| Mindfulness     | mindfulness.html |
-| Gallery         | gallery.html     |
-| Contact         | #booking-enquiry |
+| 404             | 404.html         |
 
-Links on all pages navigated to the correct pages as exptected.
+Buttons on all pages produced the expected behaviour as exptected.
 
 ### Validator Testing 
 
