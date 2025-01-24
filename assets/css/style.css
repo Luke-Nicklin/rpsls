@@ -104,7 +104,7 @@ p {
 }
 
 footer {
-    margin-top: auto;
+    margin-top: 40px;
 }
 
 /* Mobile Styles */
@@ -169,6 +169,6 @@ footer {
     }
 
     footer {
-        margin-top: auto;
+        margin-top: 40px;
     }
 }
