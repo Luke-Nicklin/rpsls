@@ -268,7 +268,7 @@ The live link can be found here - https://luke-nicklin.github.io/rpsls/
 
 - CodeInstitute - JavaScript module helped me to implement certain aspects of the code such as the moves array, playGame function and else/if statements. It also showed me how to change the images when a button is selected using template literals in the example project video.
 - StackOverflow - Helped me to troubleshoot issues I was having with JavaScrip throughout the project.
-- SheCodes - Helped me work out out to use event listeners for the buttons.
+- SheCodes - Helped me work out how to use event listeners for the buttons.
 - [Code with Ania Kubów](https://www.youtube.com/watch?v=RwFeg0cEZvQ) was used to help me better understand different ways to use JavaScript to make the game work.
 
 
