@@ -19,10 +19,10 @@ function playGame(userMove) {
   const computerMove = moves[Math.floor(Math.random() * moves.length)]
 
 // Change images based on user move and computer move
-userImage.src = `images/${userMove}.png`;
+userImage.src = `assets/images/${userMove}.png`;
 userImage.alt = moves[userMove];
 
-computerImage.src = `images/${computerMove}.png`;
+computerImage.src = `assets/images/${computerMove}.png`;
 computerImage.alt = moves[computerMove];
 
 // Else if statement to determine result
