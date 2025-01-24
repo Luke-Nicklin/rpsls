@@ -16,7 +16,7 @@ const moves = ["rock", "paper", "scissors", "lizard", "spock"];
 
 // Function to play game
 function playGame(userMove) {
-  const computerMove = moves[Math.floor(Math.random() * moves.length)]
+  const computerMove = moves[Math.floor(Math.random() * moves.length)];
 
 // Change images based on user move and computer move
 userImage.src = `assets/images/${userMove}.png`;
@@ -54,9 +54,9 @@ let losses = 0;
 let ties = 0;
 
 if (result === "win") {
-  wins++
+  wins++;
 } else if (result === "lose") {
-  losses++
+  losses++;
 } else if (result === "tie") {
   ties++;
 }

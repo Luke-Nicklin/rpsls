@@ -66,7 +66,7 @@ __Favicon__
   - A favicon will be implemented with the rock, paper, scissors, lizard, spock initials 'RPSLS'.
   - This will show an image in the tab so users can identify the RPSLS website when they have multiple tabs open.
 
-  ![Favicon](media/ZenYoga-favicon.png)
+  ![Favicon](media/favicon.png)
 
 __404 page__
 
@@ -110,9 +110,7 @@ Home page on tablet
 * GitHub
     * Source code is hosted on GitHub and delpoyed using Git Pages.
 * Git 
-    * Used to commit and push code during the development opf the Website
-* Font Awesome
-    * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
+    * Used to commit and push code during the development opf the Website 
 * Favicon.io
     * favicon files were created at https://favicon.io/favicon-converter/
 * Figma
@@ -168,14 +166,69 @@ __404 page__
 
 **Buttons**
 
-Testing was performed to ensure all buttons on the respective pages resulted in the expected behavious to the correc as per design. This was done by selecting the buttons on each page.
+Testing was performed to ensure all buttons resulted in the expected behaviour as per design. This was done by selecting each button on the home page and 404 page.
 
 | Navigation Link | Page to Load     |
 | --------------- | ---------------  |
 | Home            | index.html       |
 | 404             | 404.html         |
 
-Buttons on all pages produced the expected behaviour as exptected.
+Buttons on all pages produced the expected behaviour.
+
+- Button
+
+Steps to test
+
+1. Navigate to [RPSLS] (https://luke-nicklin.github.io/rpsls/)
+2. Select "Rock" button
+3. Select "Paper" button
+2. Select "Scissors" button
+3. Select "Lizard" button
+2. Select "Spock" button
+
+Expected behaviour
+
+When the user selects a button the matching image will appear under the 'You' H2 and the computer's random move will generate the image that matches its move under the 'Computer' H2.
+
+Actual:
+
+Behaviour as expected
+
+- Result
+
+Steps to test
+
+1. Navigate to [RPSLS] (https://luke-nicklin.github.io/rpsls/)
+2. Select "Rock" button
+3. Select "Paper" button
+2. Select "Scissors" button
+3. Select "Lizard" button
+2. Select "Spock" button
+
+Expected behaviour
+
+When the user selects a button, the result displays the outcome of each game. It will either say 'You win!', 'You lose!' or 'It's a tie!'
+
+Actual:
+
+Behaviour as expected
+
+- Scoreboard
+
+Steps to test
+
+1. Navigate to [RPSLS] (https://luke-nicklin.github.io/rpsls/)
+2. Select "Rock" button
+3. Select "Paper" button
+2. Select "Scissors" button
+3. Select "Lizard" button
+2. Select "Spock" button
+
+When the user selects a button, the scoreboard is updated with the result of each game. This is a running total of the results of all the games in the session.
+
+Actual:
+
+Behaviour not as expected. The scoreboard currently does not keep a running score. The scoreboard refreshes for each game. This is a known bug.
 
 ### Validator Testing 
 
@@ -187,9 +240,14 @@ Buttons on all pages produced the expected behaviour as exptected.
   - No errors were found when passing the home page through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fluke-nicklin.github.io%2Frpsls%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
   - No errors were returned when passing the 404 page through the official [W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fluke-nicklin.github.io%2Frpsls%2F404&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+- JavaScript
+  - No errors were found when passing the home page through the JSHint checker website ![JSHint](media/JSHint-result.png) 
+
 ### Bugs
 
-There are currently no known bugs associated with the website.
+- Scoreboard
+
+The scoreboard currently does not keep a running score. The scoreboard refreshes for each game. This is a known bug.
 
 ## Deployment
 
@@ -198,41 +256,15 @@ There are currently no known bugs associated with the website.
   - Select Pages in the 'Code and automation' section of the vertical navigation on the left side
   - Once the main branch has been selected and saved, the page will include the live URL at the top of the page with a visit site button.
 
-The live link can be found here - https://luke-nicklin.github.io/zen-yoga/
+The live link can be found here - https://luke-nicklin.github.io/rpsls/
 
 
 ## Credits 
 
 ### Code
 
-- The site uses components and patterns from Bootstrap.
 
-### Content 
-
-- The text for the Meditation page was taken from a Google search result AI overview. The AI overview delivered a summary of meditation techniques from the following sources:
-  - NHS
-  - MedicalNewsToday
-  - Verywell mind
-  - Mayo Clinic
-  - YouTube
-  - Gaiam
-  - Insight Timer
-  - tonyrobbins.com
-
-- The text for the Yoga page was taken from a Google search result AI overview. The AI overview delivered a summary of yoga techniques from the following sources:
-  - Verywell Fit
-  - Brio Leisure
-  - WorkouLabs
-
-- The text for the Mindfulness page was taken from a Google search result AI overview. The AI overview delivered a summary of mindfulness techniques from the following sources:
-  - Mayo Clinic
-  - Mindful.org
-  - NHS
-  - NHS news in health
-  - YouTube
-  
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the website are from pexels.com
+- The images are from Wikimedia Commons - https://commons.wikimedia.org/wiki/File:Rock_paper_scissors_lizard_spock.svg
