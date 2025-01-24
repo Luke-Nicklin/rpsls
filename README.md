@@ -180,8 +180,8 @@ Buttons on all pages produced the expected behaviour as exptected.
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing the home page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Findex.html)
-  - No errors were returned when passing the meditation page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fmeditation.html)
+  - No errors were returned when passing the home page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Frpsls%2F)
+  - No errors were returned when passing the 404 page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fmeditation.html)
   - No errors were returned when passing the yoga page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fyoga.html)
   - No errors were returned when passing the mindfulness page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fmindfulness.html)
   - No errors were returned when passing the gallery page through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluke-nicklin.github.io%2Fzen-yoga%2Fgallery.html)
