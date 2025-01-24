@@ -106,7 +106,7 @@ Home page on tablet
 * JavaScript
     * The interactivity was created using JavaScript in an external file.
     * Used to listen for user clicks on the buttons.
-    * Used to generate the image for the user's move when user selects a button.
+    * Used to generate the image for the user's move when the user selects a button.
     * Used to generate the image for the computer's move when the user selects a button.
     * Used to display the result of each game.
     * Used to update the scoreboard to show the number of wins, losses and ties. 
