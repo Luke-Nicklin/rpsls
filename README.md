@@ -105,6 +105,11 @@ Home page on tablet
     * The Website was styled using custom CSS in an external file.
 * JavaScript
     * The interactivity was created using JavaScript in an external file.
+    * Used to listen for user clicks on the buttons.
+    * Used to generate the image for the user's move when user selects a button.
+    * Used to generate the image for the computer's move when the user selects a button.
+    * Used to display the result of each game.
+    * Used to update the scoreboard to show the number of wins, losses and ties. 
 * Visual Studio Code
     * The website was developed using the Visual Studio Code text editor.
 * GitHub
@@ -175,8 +180,6 @@ Testing was performed to ensure all buttons resulted in the expected behaviour a
 
 Buttons on all pages produced the expected behaviour.
 
-- Button
-
 Steps to test
 
 1. Navigate to [RPSLS] (https://luke-nicklin.github.io/rpsls/)
@@ -194,7 +197,7 @@ Actual:
 
 Behaviour as expected
 
-- Result
+**Result**
 
 Steps to test
 
@@ -213,7 +216,7 @@ Actual:
 
 Behaviour as expected
 
-- Scoreboard
+**Scoreboard**
 
 Steps to test
 
@@ -263,6 +266,10 @@ The live link can be found here - https://luke-nicklin.github.io/rpsls/
 
 ### Code
 
+- CodeInstitute - JavaScript module helped me to implement certain aspects of the code such as the moves array, playGame function and else/if statements. It also showed me how to change the images when a button is selected using template literals in the example project video.
+- StackOverflow - Helped me to troubleshoot issues I was having with JavaScrip throughout the project.
+- SheCodes - Helped me work out out to use event listeners for the buttons.
+- [Code with Ania Kubów](https://www.youtube.com/watch?v=RwFeg0cEZvQ) was used to help me better understand different ways to use JavaScript to make the game work.
 
 
 ### Media
