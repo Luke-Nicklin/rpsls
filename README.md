@@ -231,7 +231,7 @@ When the user selects a button, the scoreboard is updated with the result of eac
 
 Actual:
 
-Behaviour not as expected. The scoreboard currently does not keep a running score. The scoreboard refreshes for each game. This is a known bug.
+Behaviour as expected.
 
 ### Validator Testing 
 
@@ -250,7 +250,9 @@ Behaviour not as expected. The scoreboard currently does not keep a running scor
 
 - Scoreboard
 
-The scoreboard currently does not keep a running score. The scoreboard refreshes for each game. This is a known bug.
+I encountered a bug with the scoreboard where it would reset for each game. Therefore, it did not keep a running track of the scores. I managed to fix this by moving the event listeneres and attaching them to the DOM variables. However this lead to an issue with the playGame function running twice every time a button was clicked.
+
+I realised that I had an onclick="playGame('rock')" on each button within my HTML that was causing this issue. By removing this, the playGame function only ran once and the scoreboard went up in increments of one each time a game was played.
 
 ## Deployment
 
