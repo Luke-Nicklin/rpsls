@@ -149,11 +149,25 @@ footer {
     }
 
     .moves {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        margin-top: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #userImage {
+        width: 150px;
+        height: 150px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #computerImage {
+        width: 150px;
+        height: 150px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .rules {
@@ -176,15 +190,15 @@ footer {
         width: 100vw;
         height: 100vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         margin-top: auto;
     }
 
     .rules {
-        margin-top: 150px;
+        margin-top: -350px;
     }
 
     footer {
-        margin-top: 40px;
+        margin-top: 200px;
     }
 }
