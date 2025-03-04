@@ -70,3 +70,10 @@ document.getElementById("wins").textContent = win;
 document.getElementById("losses").textContent = loss;
 document.getElementById("ties").textContent = tie;
 }
+
+// Event listeners
+rockButton.addEventListener("click", () => playGame("rock"));
+paperButton.addEventListener("click", () => playGame("paper"));
+scissorsButton.addEventListener("click", () => playGame("scissors"));
+lizardButton.addEventListener("click", () => playGame("lizard"));
+spockButton.addEventListener("click", () => playGame("spock"));
