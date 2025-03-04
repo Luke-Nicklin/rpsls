@@ -244,7 +244,7 @@ Behaviour as expected.
   - No errors were returned when passing the 404 page through the official [W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fluke-nicklin.github.io%2Frpsls%2F404&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - JavaScript
-  - No errors were found when passing the home page through the JSHint checker website ![JSHint](media/JSHint-result.png) 
+  - No errors were found when passing the home page through the JSHint checker website ![JSHint](media/JShint%20-%20result.png) 
 
 ### Bugs
 
