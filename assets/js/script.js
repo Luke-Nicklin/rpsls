@@ -1,14 +1,12 @@
 // DOM variables
-const rockButton = document.getElementById("rock").addEventListener("click", () => playGame("rock"));
-const paperButton = document.getElementById("paper").addEventListener("click", () => playGame("paper"));
-const scissorsButton = document.getElementById("scissors").addEventListener("click", () => playGame("scissors"));
-const lizardButton = document.getElementById("lizard").addEventListener("click", () => playGame("lizard"));
-const spockButton = document.getElementById("spock").addEventListener("click", () => playGame("spock"));
+const rockButton = document.getElementById("rock");
+const paperButton = document.getElementById("paper");
+const scissorsButton = document.getElementById("scissors");
+const lizardButton = document.getElementById("lizard");
+const spockButton = document.getElementById("spock");
 const userImage = document.getElementById("userImage");
 const computerImage = document.getElementById("computerImage");
 const resultDisplayElement = document.getElementById("resultDisplay");
-const scoreboard = document.getElementById("scoreboard")
-
 
 // Array of possible moves
 const moves = ["rock", "paper", "scissors", "lizard", "spock"];
