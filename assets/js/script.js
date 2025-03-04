@@ -54,7 +54,7 @@ if (result === "win") {
 }
 
 resultDisplayElement.textContent = resultDisplay;
-updateScore(result)
+updateScore(result);
 }
 
 function updateScore(result) {
