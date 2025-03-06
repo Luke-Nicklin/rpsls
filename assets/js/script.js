@@ -16,6 +16,13 @@ let win = 0;
 let loss = 0;
 let tie = 0;
 
+// Event listeners
+rockButton.addEventListener("click", () => playGame("rock"));
+paperButton.addEventListener("click", () => playGame("paper"));
+scissorsButton.addEventListener("click", () => playGame("scissors"));
+lizardButton.addEventListener("click", () => playGame("lizard"));
+spockButton.addEventListener("click", () => playGame("spock"));
+
 // Function to play game
 function playGame(userMove) {
   const computerMove = moves[Math.floor(Math.random() * moves.length)];
@@ -70,10 +77,3 @@ document.getElementById("wins").textContent = win;
 document.getElementById("losses").textContent = loss;
 document.getElementById("ties").textContent = tie;
 }
-
-// Event listeners
-rockButton.addEventListener("click", () => playGame("rock"));
-paperButton.addEventListener("click", () => playGame("paper"));
-scissorsButton.addEventListener("click", () => playGame("scissors"));
-lizardButton.addEventListener("click", () => playGame("lizard"));
-spockButton.addEventListener("click", () => playGame("spock"));
